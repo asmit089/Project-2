@@ -118,3 +118,45 @@ nav .btn-outline-dark:hover {
             align-items: center;
             justify-content: space-between;
         }
+        /*Filter css*/
+.section {
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.filter-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    justify-content: center;
+    background-color: white;
+}
+
+.filter-group {
+    width: 45%; /* Makes the dropdowns take up nearly half the container */
+    min-width: 200px; /* Prevents them from getting too narrow */
+}
+
+.submit-button {
+    background-color: #7d6652;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    justify-content: center;
+}
+.form-section {
+    border-top: 1px solid #ccc;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
