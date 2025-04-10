@@ -143,9 +143,10 @@ nav .btn-outline-dark:hover {
     min-width: 200px; /* Prevents them from getting too narrow */
 }
 
-.submit-button {
-    background-color: #7d6652;
-    color: white;
+.select-button {
+    background-color: white;
+    color:#7d6652;
+    border-color: #7d6652;
     border-radius: 30px;
     padding: 10px 20px;
     justify-content: center;
