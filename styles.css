@@ -160,3 +160,15 @@ nav .btn-outline-dark:hover {
     margin-right: auto;
     background-color: white;
 }
+
+/* job post css */
+.job-form {
+    border-top: 1px solid #ccc;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
