@@ -1,6 +1,8 @@
 /* General Styling */
         body {
             background-color: #f8f5f0;
+            color: #7d6652; 
+            
         }
 
         h1, h2, h3, h4, h5, h6 {
@@ -57,6 +59,7 @@
             text-align: center;
             border-radius: 10px;
             font-family: 'Libre Baskerville', serif;
+            
         }
         .card {
             border: none;
@@ -64,6 +67,7 @@
             border-radius: 10px;
             padding: 15px;
             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            color: #7d6652; 
         }
 
 /* Profile Image */
@@ -72,23 +76,18 @@
             height: 175px; /* Adjust the size of the image */
             border-radius: 100px; /* Make the image circular */
         }
+/* Accordion*/
+        .accordion-body p {
+            color: #7d6652; 
+        }
+        .accordion-button {
+            background-color: #f5f5f5;
+            color: #6f4f1f; 
+        }
 
 /*Filter*/
 .section {
-    padding: 20px 20px;
-    margin-bottom: 20px;
-    width: 100%;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-    border-radius: 10px;
-    border: 2px solid #7d6652;
-}
-
-.form-section {
-    border: 2px solid #7d6652;
-    padding: 20px 20px;
+    padding: 20px 10px;
     margin-bottom: 20px;
     width: 100%;
     max-width: 800px;
@@ -107,24 +106,29 @@
 }
 
 .filter-group {
-    width: 45%;
-    min-width: 200px;
-    border-color: #7d6652;
+    width: 45%; /* Makes the dropdowns take up nearly half the container */
+    min-width: 200px; /* Prevents them from getting too narrow */
 }
 
 .select-button {
-    background-color: #f8f5f0;
-    color: #7d6652;
+    background-color: white;
+    color:#7d6652;
     border-color: #7d6652;
     border-radius: 30px;
     padding: 10px 20px;
+    justify-content: center;
+}
+.form-section {
+    border-top: 1px solid #ccc;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
 }
 
-.dropdown {
-    width: 150px;
-    background-color: #f8f5f0;
-    border: 1px solid #7d6652;
-}
 /* job post */
 .job-form {
     border-top: 1px solid #ccc;
