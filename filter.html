@@ -5,47 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Volunteering Filter</title>
-
-    <!--Typography-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-     <!-- Navbar -->
- <nav class="d-flex align-items-center p-3">
-    <h3 class="mb-0 me-auto">
-        <a href="Home after login.html" class="text-dark text-decoration-none">PHP</a>
-    </h3>
-    <ul class="nav">
-        <li class="nav-item">
-            <a class="nav-link" href="filter.html">Filter</a>
-       
-        <li class="nav-item">
-            <a class="nav-link" href="#">Help</a>
-        </li>
 
-        <li class="nav-item">
-            <a class="nav-link" href="Profile.html">Profile</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
-        </li>
-        <li class="nav-item">
-            <a href="Home.html" class="btn btn-outline-dark">Sign Out</a>
-        </li>
-    </ul>
-</nav>
+    <!-- Navbar (Do not change) -->
+    <nav class="d-flex align-items-center p-3">
+        <h3 class="mb-0 me-auto">
+            <a href="Home.html" class="text-dark text-decoration-none">PHP</a>
+        </h3>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="filter.html">Filter</a>
 
+            <li class="nav-item">
+                <a class="nav-link" href="#">Help</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a href="login.html" class="btn btn-outline-dark">Sign Up</a>
+            </li>
+        </ul>
+    </nav>
     <div class="form-section">
         <h3>Volunteering Filter</h3>
         <div class="filter-row">
             <div class="filter-group">
-                <select>
+                <select class ="dropdown">
                     <option value="">Volunteering Types</option>
                     <option value="1">Groceries</option>
                     <option value="2">Landscaping</option>
@@ -56,7 +47,7 @@
                 </select>
             </div>
             <div class="filter-group">
-                <select>
+                <select class ="dropdown">
                     <option value="">Day of the week</option>
                     <option value="1">Monday</option>
                     <option value="2">Tuesday</option>
@@ -70,7 +61,7 @@
         </div>
         <div class="filter-row">
             <div class="filter-group">
-                <select>
+                <select class ="dropdown">
                     <option value="">Lorem ipsum</option>
                     <option value="1">Option 1</option>
                     <option value="2">Option 2</option>
@@ -78,7 +69,7 @@
                 </select>
             </div>
             <div class="filter-group">
-                <select>
+                <select class ="dropdown">
                     <option value="">Distance (Miles)</option>
                     <option value="1">15</option>
                     <option value="2">30</option>
@@ -87,27 +78,31 @@
             </div>
         </div>
         <button class="btn btn-custom me-2">Submit</button>
+    </div>
     </div><br>
 
     <div class="section">
-        <h3>Lorem ipsum dolor</h3>
+        <h3>John Doe</h3>
+        <h5>Type of Requested Volunteering</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
-        <button class="select-button">Select</button>
+        <button class="select-button">Select Job</button>
     </div><br>
 
     <div class="section">
-        <h3>Lorem ipsum dolor</h3>
+        <h3>John Doe</h3>
+        <h5>Type of Requested Volunteering</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
-        <button class="select-button">Select</button>
+        <button class="select-button">Select Job</button>
     </div><br>
 
     <div class="section">
-        <h3>Lorem ipsum dolor</h3>
+        <h3>John Doe</h3>
+        <h5>Type of Requested Volunteering</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
-        <button class="select-button">Select</button>
+        <button class="select-button">Select Job</button>
     </div><br>
 </body>
 
