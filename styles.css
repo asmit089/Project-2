@@ -75,7 +75,20 @@
 
 /*Filter*/
 .section {
-    padding: 20px 10px;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #7d6652;
+}
+
+.form-section {
+    border: 2px solid #7d6652;
+    padding: 20px 20px;
     margin-bottom: 20px;
     width: 100%;
     max-width: 800px;
@@ -94,29 +107,24 @@
 }
 
 .filter-group {
-    width: 45%; /* Makes the dropdowns take up nearly half the container */
-    min-width: 200px; /* Prevents them from getting too narrow */
+    width: 45%;
+    min-width: 200px;
+    border-color: #7d6652;
 }
 
 .select-button {
-    background-color: white;
-    color:#7d6652;
+    background-color: #f8f5f0;
+    color: #7d6652;
     border-color: #7d6652;
     border-radius: 30px;
     padding: 10px 20px;
-    justify-content: center;
-}
-.form-section {
-    border-top: 1px solid #ccc;
-    padding: 20px 20px;
-    margin-bottom: 20px;
-    width: 100%;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
 }
 
+.dropdown {
+    width: 150px;
+    background-color: #f8f5f0;
+    border: 1px solid #7d6652;
+}
 /* job post */
 .job-form {
     border-top: 1px solid #ccc;
