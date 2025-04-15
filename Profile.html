@@ -1,65 +1,64 @@
-
-
-<!-- When you click 'find volunteers' button on homepage, it will bring you to the 'search for available volunteering opportunities/Job filter' page-->
- <!-- When 'search for available volunteering opportunities/Job filter ' page is done, when you select a profile on there, this page will be displayed. -->
-
- <!-- On 'find volunteers' page, create a button or a differnt way to post a request for a new job-->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Volunteer Profile</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
 
-</head>
+    <!--Typography-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!--Bootstrap/CSS Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"></head>
 <body>
 
-    <!-- Navbar -->
-<nav class="d-flex align-items-center p-3">
-    <h3 class="mb-0 me-auto">
-        <a href="Home after login.html" class="text-dark text-decoration-none">PHP</a>
-    </h3>
-    <ul class="nav">
-        <li class="nav-item">
-            <a class="nav-link" href="filter.html">Filter</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Help</a>
-        </li>
+<!-- Navbar -->
+    <nav class="d-flex align-items-center p-3">
+        <h3 class="mb-0 me-auto">
+            <a href="Home after login.html" class="text-dark text-decoration-none">PHP</a>
+        </h3>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="filter.html">Filter</a>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Help</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Profile.html">Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a href="Home.html" class="btn btn-outline-dark">Sign Out</a>
+            </li>
+        </ul>
+    </nav>
 
-        <li class="nav-item">
-            <a class="nav-link" href="Profile.html">Profile</a>
-        </li>
-    
-        <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
-        </li>
-        <li class="nav-item">
-            <a href="Home.html" class="btn btn-outline-dark">Log Out</a>
-        </li>
-    </ul>
-</nav>
-    
-<div class="container my-4">
-    <div class="profile-header">
-        <h2>Jordan Mathews</h2>
-        <p>Lorem • Lorem ipsum • Lorem</p>
+<!-- Profile Header -->    
+    <div class="container my-4">
+        <div class="profile-header">
+            <img src="../Design project 2 - Interactive web prototype/image/profilePicture.jpg" alt="Profile Picture" class="profile-image">
+            <h2>Jordan Matthews</h2>
+            <p><strong>Location:</strong> Stevens Point, WI</p>
     </div>
 
+<!-- Primary Content/First Column -->
+
+<!-- Basic Information -->
     <div class="row mt-4">
-        <!-- Left Column -->
         <div class="col-md-8">
             <div class="card mb-3">
                 <h5><strong>Basic Information</strong></h5>
-                <p><strong>Location:</strong> Stevens Point, WI</p>
                 <p><strong>Disability:</strong> Cerebral Palsy (limited mobility, uses a wheelchair)</p>
                 <p><strong>Tech Proficiency:</strong> Moderate (uses assistive tech like voice commands and adaptive keyboards)</p>
                 <p><strong>Lifestyle:</strong> Enjoys remaining independent but needs occasional support for...</p>
             </div>
 
+<!-- Needs/Areas of Help -->
             <div class="card mb-3">
                 <h5><strong>Needs/Areas of Help</strong></h5>
                 <p><strong>Grocery Shopping:</strong> Needs help with purchasing and carrying groceries, especially bulkier items.</p>
@@ -67,26 +66,31 @@
                 <p><strong>Outdoor Activities:</strong> Enjoys spending time outdoors and seeks a volunteer...</p>
             </div>
 
+<!-- Availability/Preferences -->
             <div class="card mb-3">
                 <h5><strong>Availability/Preferences</strong></h5>
                 <p><strong>Days/Times When Help Is Needed:</strong> needs help during weekdays, especially in the mornings and early afternoons. Evenings are usually more flexible, but early help is preferred for tasks like grocery shopping or medical appointments</p>
-                
-                
             </div>
-
-
-            <div class="accordion" id="accordionExample">
+<!-- Volunteer Guidelines & Assistance Expectations Accordion -->
+             <div class="accordion" id="accordionExample">
                 <div class="card">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
-                                Volunteer Guidelines & Assistance Expectations
+                                <h5><strong>Volunteer Guidelines & Assistance Expectations</strong></h5>
                             </button>
                         </h2>
+<!-- Accordion Content -->
                         <div id="collapseOne" class="accordion-collapse collapse">
                             <div class="accordion-body">
-                                <p>Respecting My Independence:</p>
+                                <p><strong>My Independence:</strong></p>
                                 <p>I value my independence and appreciate volunteers who support me while allowing me to do what I can on my own. Please always ask before assisting with tasks like moving my wheelchair or handling personal items. If you're unsure about something, just ask</p>
+                            
+                                <p><strong>Communication Preferences:</strong></p>
+                                <p>I appreciate clear and respectful communication. If you’re giving instructions or offering help, please speak directly to me and not to someone else on my behalf. Feel free to ask how I prefer to communicate—whether it's verbal, written, or with assistive technology.</p>
+                            
+                                <p><strong>Personal Space and Boundaries:</strong></p>
+                                <p>Respecting my personal space is important to me. Please don’t touch mobility aids, service animals, or personal items without permission. If you’re not sure what’s okay, just ask—I'm always happy to let you know what works best for me.</p>
                             </div>
                         </div>
                     </div>
@@ -94,23 +98,15 @@
             </div>
         </div>
 
-        <!-- Right Column -->
+<!-- Secondary Content/Second Column -->
         <div class="col-md-4">
             <div class="card mb-3">
                 <h6><strong>Preferred Language:</strong></h6>
                 <p>English</p>
             </div>
-
-            <div class="card mb-3 toggle-switch">
-                <h6><strong>Available</strong></h6>
-                <input type="checkbox" class="form-check-input" checked>
-            </div>
-
-            
         </div>
     </div>
 </div>
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
