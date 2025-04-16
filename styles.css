@@ -70,17 +70,18 @@
             background-color: #ffffff;
             padding: .75vw;
             text-align: center;
-            border-radius: 2vw;
+            border-radius: 1vw;
             font-family: 'Libre Baskerville', serif;
             border: 0.1vw solid #7d6652;
         }
         .card {
             border: 0.1vw solid #7d6652;
             background: #fff;
-            border-radius: 2vw;
+            border-radius: 1vw;
             padding: 2vw;
             color: #7d6652;
         }
+
 
     /* Profile Image */
         .profile-image {
