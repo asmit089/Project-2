@@ -1,8 +1,7 @@
 /* General Styling */
         body {
             background-color: #f8f5f0;
-            color: #7d6652; 
-            
+            color: #7d6652;    
         }
 
         h1, h2, h3, h4, h5, h6 {
@@ -17,20 +16,35 @@
         .btn-custom {
             background-color: #7d6652;
             color: white;
-            border-radius: 30px;
-            padding: 10px 20px;
+            border-radius: 5vw;
+            padding: 1% 4%;
         }
 
         .btn-outline-custom {
-            border: 2px solid #7d6652;
+            background-color:#f8f5f0;
+            border: 0.1vw solid #7d6652;
             color: #7d6652;
-            border-radius: 30px;
-            padding: 10px 20px;
+            border-radius: 5vw;
+            padding: 1% 4%;
+        }
+        .btn-edit {
+                font-family: 'PT Sans', sans-serif;
+                padding: 0.4vw 1.5vw;
+        }
+
+         .save-button button {
+                padding: 0.5vw 2vw; 
+                font-family: 'Libre Baskerville', serif;
         }
 
 /* Navbar */
         nav .nav-link {
-            color: #7d6652 !important; /* Brown text instead of blue */
+            color: #7d6652;
+        }
+        
+        nav .nav-link:hover {
+            color: #000000; 
+            text-decoration: underline;
         }
 
         nav .btn-outline-dark {
@@ -45,44 +59,69 @@
 
 /* Home Page */
         .content {
-            position: relative;
-            padding: 10%;
+            padding: 5vw;
         }
         video {
-            border-radius: 20px;  /* Adjust the value to get the desired roundness */
+            border-radius: 3vw; 
         }
 
-/* Profile Page*/
+/* Profile Page */
         .profile-header {
             background-color: #ffffff;
-            padding: 30px;
+            padding: .75vw;
             text-align: center;
-            border-radius: 10px;
+            border-radius: 2vw;
             font-family: 'Libre Baskerville', serif;
-            
+            border: 0.1vw solid #7d6652;
         }
         .card {
-            border: none;
+            border: 0.1vw solid #7d6652;
             background: #fff;
-            border-radius: 10px;
-            padding: 15px;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-            color: #7d6652; 
+            border-radius: 2vw;
+            padding: 2vw;
+            color: #7d6652;
         }
 
-/* Profile Image */
+    /* Profile Image */
         .profile-image {
-            width: 175px; /* Adjust the size of the image */
-            height: 175px; /* Adjust the size of the image */
-            border-radius: 100px; /* Make the image circular */
+            width: 12vw; 
+            height: 12vw; 
+            border-radius: 50%;  
         }
-/* Accordion*/
+
+    /* Accordion */
         .accordion-body p {
-            color: #7d6652; 
+            color: #7d6652;
         }
+
         .accordion-button {
             background-color: #f5f5f5;
-            color: #6f4f1f; 
+            color: #6f4f1f;
+        }
+
+        .accordion-button:not(.collapsed) {
+            background-color: #f8f5f0;
+            color: #6f4f1f;
+        }
+        
+    /*Save Button*/
+
+        .save-button {
+            text-align: center;
+            margin: 5vw 0;
+        }
+
+        .save-button button {
+            background-color: #24A0ED; 
+            color: white;
+            border: none;
+            border-radius: 5vw;
+            padding: 1vw 4vw;
+        }
+
+    /* Hover effect on save button */
+        .save-button button:hover {
+            background-color: #7d6652;
         }
 
 /*Filter*/
