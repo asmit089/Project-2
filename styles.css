@@ -173,14 +173,28 @@
         background-color: #f8f5f0;
         border: 1px solid #7d6652;
     }
-    /* job post */
-    .job-form {
-        border-top: 1px solid #ccc;
-        padding: 20px 20px;
-        margin-bottom: 20px;
-        width: 100%;
-        max-width: 800px;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: white;
-    }
+
+/* job post */
+.job-form {
+border-top: 1px solid #ccc;
+padding: 20px 20px;
+margin-bottom: 20px;
+width: 100%;
+max-width: 800px;
+margin-left: auto;
+margin-right: auto;
+background-color: white;
+border: 2px solid #7d6652;
+border-radius: 10px;
+}
+
+.name-container {
+    margin-bottom: 15px;
+    display: inline-block;
+    min-width: 48.8%;
+}
+
+.job-filter-row {
+    display: flex;
+    margin-bottom: 20px;
+}
