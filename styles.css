@@ -136,7 +136,11 @@
     border-radius: 10px;
     border: 2px solid #7d6652;
 }
-
+.section-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .form-section {
     border: 2px solid #7d6652;
     padding: 20px 20px;
@@ -161,13 +165,14 @@
     min-width: 200px;
     border-color: #7d6652;
 }
-.select-button { 
+.select-button {
     background-color: #f8f5f0;
     color: #7d6652;
     border-color: #7d6652;
     border-radius: 30px;
-    padding: 10px 20px;}
- 
+    padding: 10px 20px;
+    width: 250px;
+}
     .dropdown {
         width: 150px;
         background-color: #f8f5f0;
