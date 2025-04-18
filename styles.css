@@ -173,12 +173,13 @@
     padding: 10px 20px;
     width: 250px;
 }
-    .dropdown {
-        width: 150px;
-        background-color: #f8f5f0;
-        border: 1px solid #7d6652;
-    }
-
+.dropdown {
+    width: 175px;
+    background-color: #f8f5f0;
+    border: 1px solid #7d6652;
+    border-radius: 5px;
+    padding: 5px;
+}
 /* job post */
 .job-form {
 border-top: 1px solid #ccc;
