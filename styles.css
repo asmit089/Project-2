@@ -136,6 +136,10 @@
     border-radius: 10px;
     border: 2px solid #7d6652;
 }
+.filter-text {
+    width: 500px;
+    font-family: 'PT Sans', sans-serif;
+}
 .section-row {
     display: flex;
     justify-content: center;
