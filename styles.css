@@ -166,12 +166,14 @@
     border-color: #7d6652;
 }
 .select-button {
-    background-color: #f8f5f0;
-    color: #7d6652;
-    border-color: #7d6652;
-    border-radius: 30px;
-    padding: 10px 20px;
-    width: 250px;
+background-color: #f8f5f0;
+color: #7d6652;
+border-color: #7d6652;
+border-radius: 30px;
+margin: auto;
+padding: 10px 20px;
+width: 125px;
+height: 50px;
 }
 .dropdown {
     width: 175px;
@@ -204,3 +206,5 @@ border-radius: 10px;
     display: flex;
     margin-bottom: 20px;
 }
+
+
