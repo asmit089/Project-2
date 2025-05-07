@@ -186,6 +186,7 @@ height: 50px;
     border-radius: 5px;
     padding: 5px;
 }
+
 /* job post */
 .job-form {
 border-top: 1px solid #ccc;
@@ -201,14 +202,51 @@ border-radius: 10px;
 }
 
 .name-container {
+    display: block;
+    width: 100%;
     margin-bottom: 15px;
-    display: inline-block;
-    min-width: 48.8%;
 }
 
 .job-filter-row {
     display: flex;
+    flex-direction: column;
+    gap: 15px;
     margin-bottom: 20px;
 }
 
+.filter-group, .dropdown, .time-container {
+    width: 100%;
+}
+
+.dropdown {
+    width: 100%;
+    background-color: #f8f5f0;
+    border: 1px solid #7d6652;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.time-container {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.job-form input[type="text"],
+.job-form input[type="time"],
+.job-form textarea,
+.job-form select {
+    background-color: #f8f5f0;
+    border: 1px solid #7d6652;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #7d6652;
+}
+
+.job-form label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+}
 
