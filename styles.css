@@ -12,6 +12,10 @@
             font-family: 'PT Sans', sans-serif;
         }
 
+        .logo {
+            color:  #7d6652;
+        }
+
 /* Button Styling */
         .btn-custom {
             background-color: #7d6652;
