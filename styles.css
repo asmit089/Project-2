@@ -1,190 +1,177 @@
 /* General Styling */
-body {
-    background-color: #f8f5f0;
-    color: #7d6652;    
-}
+        body {
+            background-color: #f8f5f0;
+            color: #7d6652;    
+        }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Libre Baskerville', serif;
-}
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Libre Baskerville', serif;
+        }
 
-p {
-    font-family: 'PT Sans', sans-serif;
-}
+        p {
+            font-family: 'PT Sans', sans-serif;
+        }
 
-.logo {
-    color:  #7d6652;
-}
+        .logo {
+            color:  #7d6652;
+        }
 
 /* Button Styling */
-.btn-custom {
-    background-color: #7d6652;
-    color: white;
-    border-radius: 5vw;
-    padding: 1% 4%;
-}
+        .btn-custom {
+            background-color: #7d6652;
+            color: white;
+            border-radius: 5vw;
+            padding: 1% 4%;
+        }
 
-.btn-outline-custom {
-    background-color:#f8f5f0;
-    border: 0.1vw solid #7d6652;
-    color: #7d6652;
-    border-radius: 5vw;
-    padding: 1% 4%;
-}
-.btn-edit {
-        font-family: 'PT Sans', sans-serif;
-        padding: 0.4vw 1.5vw;
-}
+        .btn-outline-custom {
+            background-color:#f8f5f0;
+            border: 0.1vw solid #7d6652;
+            color: #7d6652;
+            border-radius: 5vw;
+            padding: 1% 4%;
+        }
+        .btn-edit {
+                font-family: 'PT Sans', sans-serif;
+                padding: 0.4vw 1.5vw;
+        }
 
- .save-button button {
-        padding: 0.5vw 2vw; 
-        font-family: 'Libre Baskerville', serif;
-}
+         .save-button button {
+                padding: 0.5vw 2vw; 
+                font-family: 'Libre Baskerville', serif;
+        }
 
 /* Navbar */
-nav .nav-link {
-    color: #7d6652;
-}
+        nav .nav-link {
+            color: #7d6652;
+        }
+        
+        nav .nav-link:hover {
+            color: #000000; 
+            text-decoration: underline;
+        }
 
-nav .nav-link:hover {
-    color: #000000; 
-    text-decoration: underline;
-}
+        nav .btn-outline-dark {
+            border-color: #7d6652;
+            color: #7d6652;
+        }
 
-nav .btn-outline-dark {
-    border-color: #7d6652;
-    color: #7d6652;
-}
+        nav .btn-outline-dark:hover {
+            background-color: #7d6652;
+            color: white;
+        }
 
-nav .btn-outline-dark:hover {
-    background-color: #7d6652;
-    color: white;
-}
-/* Login */
-input[type="text"],
-input[type="email"],
-input[type="password"] {
-    border: 1px solid #7d6652;
-    border-radius: 0.5vw;
-    color: #7d6652;
-    background-color: #fffaf5;
-}
-
-.card-header {
-    background-color: white;
-    border-bottom: none;
-}
 /* Home Page */
-.content {
-    padding: 5vw;
-}
-video {
-    border-radius: 3vw; 
-}
+        .content {
+            padding: 5vw;
+        }
+        video {
+            border-radius: 3vw; 
+        }
 
 /* Profile Page */
-.profile-header {
-    background-color: #ffffff;
-    padding: .75vw;
-    text-align: center;
-    border-radius: 1vw;
-    font-family: 'Libre Baskerville', serif;
-    border: 0.1vw solid #7d6652;
-}
-.card {
-    border: 0.1vw solid #7d6652;
-    background: #fff;
-    border-radius: 1vw;
-    padding: 2vw;
-    color: #7d6652;
-}
+        .profile-header {
+            background-color: #ffffff;
+            padding: .75vw;
+            text-align: center;
+            border-radius: 1vw;
+            font-family: 'Libre Baskerville', serif;
+            border: 0.1vw solid #7d6652;
+        }
+        .card {
+            border: 0.1vw solid #7d6652;
+            background: #fff;
+            border-radius: 1vw;
+            padding: 2vw;
+            color: #7d6652;
+        }
 
 
-/* Profile Image */
-.profile-image {
-    width: 12vw; 
-    height: 12vw; 
-    border-radius: 50%;  
-}
+    /* Profile Image */
+        .profile-image {
+            width: 12vw; 
+            height: 12vw; 
+            border-radius: 50%;  
+        }
 
-/* Accordion */
-.accordion-body p {
-    color: #7d6652;
-}
+    /* Accordion */
+        .accordion-body p {
+            color: #7d6652;
+        }
 
-.accordion-button {
-    background-color: #f5f5f5;
-    color: #6f4f1f;
-}
+        .accordion-button {
+            background-color: #f5f5f5;
+            color: #6f4f1f;
+        }
 
-.accordion-button:not(.collapsed) {
-    background-color: #f8f5f0;
-    color: #6f4f1f;
-}
+        .accordion-button:not(.collapsed) {
+            background-color: #f8f5f0;
+            color: #6f4f1f;
+        }
+        
+    /*Save Button*/
 
-/*Save Button*/
+        .save-button {
+            text-align: center;
+            margin: 5vw 0;
+        }
 
-.save-button {
-    text-align: center;
-    margin: 5vw 0;
-}
+        .save-button button {
+            background-color: #24A0ED; 
+            color: white;
+            border: none;
+            border-radius: 5vw;
+            padding: 1vw 4vw;
+        }
 
-.save-button button {
-    background-color: #24A0ED; 
-    color: white;
-    border: none;
-    border-radius: 5vw;
-    padding: 1vw 4vw;
-}
-
-/* Hover effect on save button */
-.save-button button:hover {
-    background-color: #7d6652;
-}
+    /* Hover effect on save button */
+        .save-button button:hover {
+            background-color: #7d6652;
+        }
 
 /*Filter*/
 .section { padding: 20px 20px;
-margin-bottom: 20px;
-width: 100%;
-max-width: 800px;
-margin-left: auto;
-margin-right: auto;
-background-color: white;
-border-radius: 10px;
-border: 2px solid #7d6652;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #7d6652;
 }
 .filter-text {
-width: 500px;
-font-family: 'PT Sans', sans-serif;
+    width: 500px;
+    font-family: 'PT Sans', sans-serif;
 }
 .section-row {
-display: flex;
-justify-content: center;
-align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .form-section {
-border: 2px solid #7d6652;
-padding: 20px 20px;
-margin-bottom: 20px;
-width: 100%;
-max-width: 800px;
-margin-left: auto;
-margin-right: auto;
-background-color: white;
-border-radius: 10px;
+    border: 2px solid #7d6652;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .filter-row {
-display: flex;
-gap: 15px;
-margin-bottom: 15px;
-background-color: white;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    background-color: white;
 }
 
 .filter-group {
-width: 45%;
-min-width: 200px;
-border-color: #7d6652;
+    width: 45%;
+    min-width: 200px;
+    border-color: #7d6652;
 }
 .select-button {
 background-color: #f8f5f0;
@@ -197,11 +184,12 @@ width: 125px;
 height: 50px;
 }
 .dropdown {
-width: 175px;
-background-color: #f8f5f0;
-border: 1px solid #7d6652;
-border-radius: 5px;
-padding: 5px;
+    width: 175px;
+    background-color: #f8f5f0;
+    border: 1px solid #7d6652;
+    border-radius: 5px;
+    padding: 5px;
+    color: #7d6652;
 }
 
 /* job post */
@@ -219,50 +207,50 @@ border-radius: 10px;
 }
 
 .name-container {
-display: block;
-width: 100%;
-margin-bottom: 15px;
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
 }
 
 .job-filter-row {
-display: flex;
-flex-direction: column;
-gap: 15px;
-margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
 }
 
 .filter-group, .dropdown, .time-container {
-width: 100%;
+    width: 100%;
 }
 
 .dropdown {
-width: 100%;
-background-color: #f8f5f0;
-border: 1px solid #7d6652;
-border-radius: 5px;
-padding: 8px;
+    width: 100%;
+    background-color: #f8f5f0;
+    border: 1px solid #7d6652;
+    border-radius: 5px;
+    padding: 8px;
 }
 
 .time-container {
-display: block;
-margin-bottom: 15px;
+    display: block;
+    margin-bottom: 15px;
 }
 
 .job-form input[type="text"],
 .job-form input[type="time"],
 .job-form textarea,
 .job-form select {
-background-color: #f8f5f0;
-border: 1px solid #7d6652;
-border-radius: 5px;
-padding: 10px;
-width: 100%;
-box-sizing: border-box;
-color: #7d6652;
+    background-color: #f8f5f0;
+    border: 1px solid #7d6652;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #7d6652;
 }
 
 .job-form label {
-font-weight: 600;
-margin-bottom: 5px;
-display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
 }
