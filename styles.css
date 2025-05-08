@@ -60,7 +60,20 @@
             background-color: #7d6652;
             color: white;
         }
+/* Login */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    border: 1px solid #7d6652;
+    border-radius: 0.5vw;
+    color: #7d6652;
+    background-color: #fffaf5;
+}
 
+.card-header {
+    background-color: white;
+    border-bottom: none;
+}
 /* Home Page */
         .content {
             padding: 5vw;
